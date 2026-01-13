@@ -1,0 +1,1 @@
+const t=t=>{if(!t)return"";if(t.startsWith("http"))return t;if(t.startsWith("/static/"))return t.substring(1);if(t.includes("static/")){const r=t.indexOf("static/");return t.substring(r)}return t};export{t as g};
